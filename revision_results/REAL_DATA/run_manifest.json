@@ -1,0 +1,32 @@
+{
+  "data_status": "REAL_DATA",
+  "synthetic": false,
+  "fast_demo": false,
+  "seed": 407,
+  "revision_scope": "Existing data only; no new physical experiments",
+  "validation_protocol": "grouped",
+  "verified_group_column": "block_id",
+  "outer_folds": 3,
+  "repeats": 3,
+  "inner_folds": 3,
+  "bootstrap_resamples": 2000,
+  "holdout_sessions": [],
+  "fault_selection": "macro F1",
+  "pressure_selection": "RMSE in bar",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.13.18",
+  "input_hashes": {
+    "forward_AC.csv": "928ab3cf6a67c638693d3d07b447c924ab9d9d01993d232d2c23ec5445f40967",
+    "forward_CB.csv": "57a539ee740558553de19662a53d69c31a62898655a29c27af769eaaba64c609",
+    "backward_CA.csv": "910a6a5e46bba79f3382fb58dbd64cbd3c6f2b3b8a8020bc9c5943285bb81ac0",
+    "backward_BC.csv": "59936bf7d6871d7227036b9d13d5d38869c6ea43aba6c980be574375dd7ed4e8"
+  },
+  "generated_snapshot_sha256": "94367492cbff7dba2c65c3e07334540600c0b0298d0cb5a8f0038b7781711d07",
+  "warning_count": 303,
+  "real_live_experiment_completed": false
+}

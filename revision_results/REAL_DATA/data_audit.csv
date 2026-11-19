@@ -1,0 +1,5 @@
+segment,n,faults,normal,fault_fraction,repeated_measurement_rows
+backward_BC,421,160,261,0.38004750593824227,197
+backward_CA,421,167,254,0.39667458432304037,181
+forward_AC,424,168,256,0.39622641509433965,202
+forward_CB,422,163,259,0.3862559241706161,225

@@ -1,0 +1,14 @@
+== forward_AC: CSV rows 424, raw rows 424, matched exactly 424, non-equal opcodes 0
+    still unassigned: 0 | assigned by neighbours (*): 0
+    blocks in CSV: 16 | rows per block: {'A_B_3.5_N_N': 20, 'A_B_3.5_N_Y': 20, 'A_B_3.5_Y_N': 20, 'A_B_3.5_Y_Y': 24, 'A_B_4_N_N': 14, 'A_B_4_N_Y': 16, 'A_B_4_Y_N': 13, 'A_B_4_Y_Y': 27, 'A_B_5_N_N': 114, 'A_B_5_N_Y': 15, 'A_B_5_Y_N': 18, 'A_B_5_Y_Y': 13, 'A_B_6_N_N': 32, 'A_B_6_N_Y': 25, 'A_B_6_Y_N': 28, 'A_B_6_Y_Y': 25}
+== forward_CB: CSV rows 424, raw rows 422, matched exactly 422, non-equal opcodes 1
+    delete csv (369, 371) [(6.0, 2277, 1), (6.0, 2279, 1)] | raw (369, 369) []
+    still unassigned: 2 | assigned by neighbours (*): 0
+    blocks in CSV: 16 | rows per block: {'A_B_3.5_N_N': 20, 'A_B_3.5_N_Y': 20, 'A_B_3.5_Y_N': 20, 'A_B_3.5_Y_Y': 24, 'A_B_4_N_N': 14, 'A_B_4_N_Y': 16, 'A_B_4_Y_N': 13, 'A_B_4_Y_Y': 27, 'A_B_5_N_N': 114, 'A_B_5_N_Y': 15, 'A_B_5_Y_N': 18, 'A_B_5_Y_Y': 13, 'A_B_6_N_N': 32, 'A_B_6_N_Y': 23, 'A_B_6_Y_N': 28, 'A_B_6_Y_Y': 25}
+== backward_BC: CSV rows 421, raw rows 422, matched exactly 421, non-equal opcodes 1
+    insert csv (84, 84) [] | raw (84, 85) [(3.5, 4670, 1)]
+    still unassigned: 0 | assigned by neighbours (*): 0
+    blocks in CSV: 16 | rows per block: {'B_A_3.5_N_N': 20, 'B_A_3.5_N_Y': 20, 'B_A_3.5_Y_N': 20, 'B_A_3.5_Y_Y': 24, 'B_A_4_N_N': 14, 'B_A_4_N_Y': 16, 'B_A_4_Y_N': 13, 'B_A_4_Y_Y': 27, 'B_A_5_N_N': 114, 'B_A_5_N_Y': 15, 'B_A_5_Y_N': 20, 'B_A_5_Y_Y': 10, 'B_A_6_N_N': 32, 'B_A_6_N_Y': 23, 'B_A_6_Y_N': 28, 'B_A_6_Y_Y': 25}
+== backward_CA: CSV rows 421, raw rows 421, matched exactly 421, non-equal opcodes 0
+    still unassigned: 0 | assigned by neighbours (*): 0
+    blocks in CSV: 16 | rows per block: {'B_A_3.5_N_N': 20, 'B_A_3.5_N_Y': 20, 'B_A_3.5_Y_N': 20, 'B_A_3.5_Y_Y': 24, 'B_A_4_N_N': 14, 'B_A_4_N_Y': 16, 'B_A_4_Y_N': 13, 'B_A_4_Y_Y': 27, 'B_A_5_N_N': 114, 'B_A_5_N_Y': 15, 'B_A_5_Y_N': 20, 'B_A_5_Y_Y': 10, 'B_A_6_N_N': 32, 'B_A_6_N_Y': 23, 'B_A_6_Y_N': 28, 'B_A_6_Y_Y': 25}
